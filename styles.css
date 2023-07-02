@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.home, .about, .contact, .login, .register {
+    padding: 2rem 0;
+}

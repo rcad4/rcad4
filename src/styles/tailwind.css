@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto max-w-screen-lg;
+}
+
+.navbar {
+  @apply bg-gray-800 p-4;
+}
+
+.footer {
+  @apply bg-gray-800 p-4 mt-8;
+}
+
+.home {
+  @apply p-4;
+}
+
+.about {
+  @apply p-4;
+}
+
+.contact {
+  @apply p-4;
+}
+
+.login {
+  @apply p-4;
+}
+
+.register {
+  @apply p-4;
+}
